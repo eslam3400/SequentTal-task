@@ -1,0 +1,34 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: white;
+  font-size: larger;
+}
+
+nav .user {
+  display: flex;
+  align-items: center;
+}
+
+nav .user>* {
+  margin: 0 10px;
+}
+
+nav .user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+nav .logout {
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  font-size: large;
+}
